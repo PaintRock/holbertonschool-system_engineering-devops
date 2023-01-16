@@ -1,2 +1,2 @@
 #!/bin/bash
-symba
+ln --symbolic /bin/ls ._ls_
