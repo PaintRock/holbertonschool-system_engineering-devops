@@ -1,2 +1,2 @@
 #!/bin/bash
-cat tail -1 
+echo tail -1 | tail -1
