@@ -4,9 +4,9 @@ myvar=1
 while [ $myvar -le 10 ]
 do
 if [ $myvar -eq 4 ] 
-then echo Bad Luck
+then echo bad luck
 elif [ $myvar -eq 8 ]
-then echo Good Luck
+then echo good luck
 else 
  echo Best School
 fi        
