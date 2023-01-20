@@ -1,0 +1,95 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   6972   236 ?        Ss   Jan11   0:00 /bin/bash /etc/sandbox_run.sh
+root         8  0.0  0.0  12172   472 ?        S    Jan11   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        19  0.0  0.0   7236    12 pts/0    Ss+  Jan11   0:00 /bin/bash
+root        36  0.0  0.0   7236     0 pts/1    Ss+  Jan12   0:00 /bin/bash
+root        49  0.0  0.0   7236     8 pts/2    Ss+  Jan12   0:00 /bin/bash
+root        77  0.0  0.0   7236     8 pts/3    Ss   Jan12   0:00 /bin/bash
+root        89  0.0  0.0   9564     0 pts/3    S+   Jan12   0:00 git clone https://github.com/PaintRock/holbertonschool-engineering_devops.git
+root        90  0.0  0.0 105804     4 pts/3    S+   Jan12   0:00 /usr/lib/git-core/git-remote-https origin https://github.com/PaintRock/holbertonschool-engineering_devops.git
+root       120  0.0  0.0   7236    12 pts/4    Ss   Jan12   0:00 /bin/bash
+root       156  0.0  0.0   9564     0 pts/4    S+   Jan12   0:00 git push --set-upstream origin master
+root       157  0.0  0.0 105808     0 pts/4    S+   Jan12   0:00 /usr/lib/git-core/git-remote-https origin https://github.com/PaintRock/holbertonschool-engineering_devops.git
+root       159  0.0  0.0   7236     8 pts/5    Ss   Jan12   0:00 /bin/bash
+root       178  0.0  0.0  22624     0 pts/5    S+   Jan12   0:00 vi README.md
+root       208  0.0  0.0   7236    12 pts/6    Ss   Jan12   0:00 /bin/bash
+root       221  0.0  0.0 219032     0 pts/6    Sl+  Jan12   0:00 emacs README.md
+root       225  0.0  0.0   7236    12 pts/7    Ss   Jan12   0:00 /bin/bash
+root       238  0.0  0.0 218964     0 pts/7    Sl+  Jan12   0:00 emacs README.md
+root       242  0.0  0.0   7236     8 pts/8    Ss+  Jan12   0:00 /bin/bash
+root       254  0.0  0.0   7368    12 pts/9    Ss+  Jan12   0:00 /bin/bash
+root       407  0.0  0.0   7236    12 pts/10   Ss   Jan12   0:00 /bin/bash
+root       827  0.0  0.0   7236     0 pts/10   S    Jan12   0:00 /bin/bash
+root       828  0.0  0.0   7236    12 pts/10   S+   Jan12   0:00 /bin/bash
+root      1008  0.0  0.0   7236    12 pts/11   Ss+  Jan12   0:00 /bin/bash
+root      1124  0.0  0.0   7236    76 pts/12   Ss   Jan13   0:00 /bin/bash
+root      1136  0.0  0.0   7372    76 pts/13   Ss   Jan13   0:00 /bin/bash
+root      1659  0.0  0.0   7380    88 pts/12   S+   Jan13   0:00 man chmod
+root      1675  0.0  0.0   5836     4 pts/12   S+   Jan13   0:00 pager
+root      1704  0.0  0.0   7380    88 pts/13   S+   Jan13   0:00 man chmod
+root      1718  0.0  0.0   5836     0 pts/13   S+   Jan13   0:00 pager
+root      1732  0.0  0.0   7236   164 pts/14   Ss+  Jan13   0:00 /bin/bash
+root      2740  0.0  0.0   7236   164 pts/15   Ss   Jan13   0:00 /bin/bash
+root      2896  0.0  0.0   7208   160 pts/15   S+   Jan14   0:00 man adduser
+root      2905  0.0  0.0   7208     0 pts/15   S+   Jan14   0:00 man adduser
+root      2906  0.0  0.0   5836    44 pts/15   S+   Jan14   0:00 pager
+root      2913  0.0  0.0   7236   164 pts/16   Ss   Jan14   0:00 /bin/bash
+root      2966  0.0  0.0   7204   164 pts/16   S+   Jan14   0:00 man group
+root      2978  0.0  0.0   5836     0 pts/16   S+   Jan14   0:00 pager
+root      2991  0.0  0.0   7236   100 pts/17   Ss+  Jan14   0:00 /bin/bash
+root      3012  0.0  0.0   7236    80 pts/18   Ss+  Jan14   0:00 /bin/bash
+root      3230  0.0  0.0   7236   164 pts/19   Ss+  Jan14   0:00 /bin/bash
+root      3518  0.0  0.0   7236   452 pts/20   Ss+  Jan15   0:00 /bin/bash
+root      3544  0.0  0.0 218984   172 pts/20   Tl   Jan15   0:00 emacs 8-James_Bond
+root      3609  0.0  0.0   7236   748 pts/21   Ss+  Jan15   0:00 /bin/bash
+root      3635  0.0  0.0   7236   748 pts/22   Ss   Jan15   0:00 /bin/bash
+root      3981  0.0  0.0   6984   380 pts/22   S+   Jan15   0:00 man 5 passwd
+root      3993  0.0  0.0   5836   232 pts/22   S+   Jan15   0:00 pager
+root      4008  0.0  0.0   7368   776 pts/23   Ss+  Jan16   0:00 /bin/bash
+root      4067  0.0  0.0   7236   796 pts/24   Ss   Jan16   0:00 /bin/bash
+root      4083  0.0  0.0 218524   496 pts/24   Sl+  Jan16   0:00 emacs 12-file_type
+root      4675  0.0  0.0 218760   436 pts/23   Tl   Jan16   0:00 emacs 12-directory_permissions
+root      4830  0.0  0.0   7236   824 pts/25   Ss   Jan17   0:00 /bin/bash
+root      4842  0.0  0.0 219340   444 pts/25   Sl+  Jan17   0:00 emacs 1-confused_smiley
+root      4849  0.0  0.0   7236   876 pts/26   Ss+  Jan17   0:00 /bin/bash
+root      4861  0.0  0.0   7236   844 pts/27   Ss   Jan17   0:00 /bin/bash
+root      4874  0.0  0.0 228152     0 pts/27   Sl+  Jan17   0:00 emacs 1-confused_smiley
+root      4883  0.0  0.0   7236   888 pts/28   Ss+  Jan17   0:00 /bin/bash
+root      4926  0.0  0.0   7372   860 pts/29   Ss+  Jan17   0:00 /bin/bash
+root      5367  0.0  0.0   7236   908 pts/30   Ss+  Jan17   0:00 /bin/bash
+root      5436  0.0  0.0   7368   912 pts/31   Ss+  Jan17   0:00 /bin/bash
+root      5572  0.0  0.0   7236   856 pts/32   Ss   Jan17   0:00 /bin/bash
+root      5584  0.0  0.0 219492   584 pts/32   Sl+  Jan17   0:00 emacs 6-third_line
+root      5635  0.0  0.0   7236   956 pts/33   Ss+  Jan17   0:00 /bin/bash
+root      5800  0.0  0.0   7236   936 pts/34   Ss+  Jan17   0:00 /bin/bash
+root      5812  0.0  0.0   7352   916 pts/35   Ss   Jan17   0:00 /bin/bash
+root      6293  0.0  0.0 218856   536 pts/35   Sl+  Jan17   0:00 emacs 10-no_more_js
+root      6300  0.0  0.0   7236   948 pts/36   Ss+  Jan17   0:00 /bin/bash
+root      6755  0.0  0.0   7236  1044 pts/37   Ss+  Jan18   0:00 /bin/bash
+root      6924  0.0  0.0   7236  1172 pts/38   Ss+  Jan18   0:00 /bin/bash
+root      7244  0.0  0.0   7236  1184 pts/39   Ss   Jan18   0:00 /bin/bash
+root      7257  0.0  0.0 218748   652 pts/39   Sl+  Jan18   0:00 emacs 15-countthatword
+root      7261  0.0  0.0   7236  1176 pts/40   Ss   Jan18   0:00 /bin/bash
+root      7292  0.0  0.0   7380   708 pts/40   S+   Jan18   0:00 man wc
+root      7304  0.0  0.0   5836   564 pts/40   S+   Jan18   0:00 pager
+root      7312  0.0  0.0   7236  1208 pts/41   Ss+  Jan18   0:00 /bin/bash
+root      7324  0.0  0.0   7236  1180 pts/42   Ss   Jan18   0:00 /bin/bash
+root      7358  0.0  0.0 219156   668 pts/42   Sl+  Jan18   0:00 emacs 15-countthatword
+root      7368  0.0  0.0   7236  1176 pts/43   Ss+  Jan18   0:00 /bin/bash
+root      7415  0.0  0.0   7236  1468 pts/44   Ss+  Jan19   0:00 /bin/bash
+root      7656  0.0  0.0   7236  1456 pts/45   Ss   Jan19   0:00 /bin/bash
+root      7671  0.0  0.0 219080   984 pts/45   Sl+  Jan19   0:00 emacs 1-hello_you
+root      7677  0.0  0.0   7236  1500 pts/46   Ss+  Jan19   0:00 /bin/bash
+root      7730  0.0  0.0   7236  1640 pts/47   Ss   Jan19   0:00 /bin/bash
+root      7869  0.0  0.0   7204  1024 pts/47   S+   Jan19   0:00 man export
+root      7880  0.0  0.0   5836   992 pts/47   S+   Jan19   0:00 pager
+root     12456  0.0  0.0   7236  1792 pts/48   Ss+  Jan19   0:00 /bin/bash
+root     12577  0.0  0.0   7372  2956 pts/49   Ss+  09:27   0:00 /bin/bash
+root     13878  0.0  0.0   7236  3524 pts/50   Ss+  15:14   0:00 /bin/bash
+root     13913  0.0  0.0   7236  3528 pts/51   Ss   15:23   0:00 /bin/bash
+root     13939  0.0  0.0   6972  2924 pts/51   S+   15:27   0:00 bash ./1-list_your_processes
+root     13941  0.0  0.0   5836  2052 pts/51   S+   15:27   0:00 less
+root     13949  0.0  0.0   7236  3772 pts/52   Ss   15:30   0:00 /bin/bash
+root     13966  0.0  0.0   6972  3092 pts/52   S+   15:35   0:00 bash ./1-list_your_processes
+root     13967  0.0  0.0   9128  3044 pts/52   R+   15:35   0:00 ps -aux
+root     13968  0.0  0.0   5836  2160 pts/52   S+   15:35   0:00 less
