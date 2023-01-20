@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# running Best School for 10
+myvar=1
+until [ $myvar -ge 10 ]
+do
+        echo Best School
+        ((myvar ++))
+done
