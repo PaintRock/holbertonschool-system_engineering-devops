@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# create a never ending loop
-doodoo=1
-while ($doodoo -gt 1)
-      echo To infinity and beyond
-(doodoo**)
-exit
