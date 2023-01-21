@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# display all running processes
+doodoo=1
+while [ $doodoo -ge 1 ]
+do 
+echo to infinity and beyond
+done

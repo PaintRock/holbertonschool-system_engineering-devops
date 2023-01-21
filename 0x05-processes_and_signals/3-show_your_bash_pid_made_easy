@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # display all running processes
-pgrep -l  bash
+pgrep -l bash
 exit
