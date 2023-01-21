@@ -1,3 +1,2 @@
 #!/bin/bash
-dog=$TRUEKNOWLEDGE+128
-echo $dog
+echo $(($TRUEKNOWLEDGE + 128))
