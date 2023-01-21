@@ -1,2 +1,2 @@
 #!/bin/bash
-dog=cat
+dog="cat"
