@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # display all running processes
-ps -a boot
+ps -axuf boot
 exit
