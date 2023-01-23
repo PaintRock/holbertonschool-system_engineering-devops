@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# make numbers and case and while or something
+myvar=1
+dog=1
+while [ $myvar -le 59 ]
+do
+echo $myvar
+((myvar++))
+if [ $myvar -eq 59 ]
+then
+    echo 1 hour
+else 
+    echo $dog
+    

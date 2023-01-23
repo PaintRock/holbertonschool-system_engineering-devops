@@ -3,11 +3,12 @@
 myvar=1
 while [ $myvar -le 20 ]
 do
-echo $myvar
 case $myvar in
 4) echo "bad luck from China";;
 9) echo "bad luck from Japan";;
-17) echo "bad luck from Italy"
+17) echo "bad luck from Italy";;
+*) echo $myvar
 esac
-((myvar++))        
+(($myvar++))
+        
 done

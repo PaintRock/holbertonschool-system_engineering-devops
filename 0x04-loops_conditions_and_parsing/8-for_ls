@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+gee=ls
+fo in ./
