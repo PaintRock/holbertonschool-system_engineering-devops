@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 # make clock
-hrs=0
+hours=0
 min=1
-while [ $hrs -le 12 ]
+while [ $hours -lt 13 ]
 do
-echo "Hours:$hrs"
-while [ $min -le 59 ]
+echo "Hours:$hours"
+while [ $min -lt 60 ]
 do
 	  echo "$min"
 	  ((min++))
 	  done
-((hrs++))
+((hours++))
 ((min=1))
 done

@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
-gee=ls
-fo in ./
+list=$(ls)
+for i in $list
+do
+
+    echo "$i"
+
+done
