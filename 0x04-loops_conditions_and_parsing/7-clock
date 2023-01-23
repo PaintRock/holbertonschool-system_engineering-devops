@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
-# make numbers and case and while or something
-myvar=1
-dog=1
-while [ $myvar -le 59 ]
+# make clock
+hrs=0
+min=1
+while [ $hrs -le 12 ]
 do
-echo $myvar
-((myvar++))
-if [ $myvar -eq 59 ]
-then
-    echo "Hour: 1"
-else 
-    echo $dog
-    while [ $dog -le 12 ]
+echo "Hours:$hrs"
+while [ $min -le 59 ]
+do
+	  echo "$min"
+	  ((min++))
+	  done
+((hrs++))
+((min=1))
+done
