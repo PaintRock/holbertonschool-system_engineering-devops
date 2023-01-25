@@ -1,2 +1,9 @@
 #!/usr/bin/env bash
 # fizz buzz
+n=1
+while [[ $n -le 100 ]]
+do
+    echo $n
+    ((n++))
+    if [ $n 
+done
