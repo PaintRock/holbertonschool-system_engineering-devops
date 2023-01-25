@@ -1,1 +1,1 @@
-Second project
+One README is enough
